@@ -14,4 +14,3 @@ export default class RNSimpleRnButton extends Component {
   }
 }
 
-export default RNSimpleRnButton;
