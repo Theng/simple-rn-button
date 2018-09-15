@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
 import {
   View,
-  Text
+  Text,
+  TouchableOpacity
 } from 'react-native';
 export default class RNSimpleRnButton extends Component {
  
   render() {
     return (
-      <View>
-          <Text>Simple Button Test</Text>
-      </View>
+      <TouchableOpacity onPress={this.props.onClick()}>
+        <View>
+            <Text>Simple Button Test</Text>
+        </View>
+      </TouchableOpacity>
     );
   }
 }
